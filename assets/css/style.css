@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Signika', sans-serif;
+}
+
+header.main {
+  background: url(../images/hero.jpg) no-repeat;
+  background-size: cover;
+  height: 700px;
+  position: relative;
+}
+
+header.main nav.navigation, header.main div.bajada-foto {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 25px 250px;
+}
+
+header.main nav.navigation a img {
+  height: 35px;
+}
+
+header.main nav.navigation ul {
+  float: right;
+}
+
+header.main nav.navigation ul li {
+  display: inline;
+}
+
+header.main nav.navigation ul li a {
+  font-size: 15px;
+  color: #000;
+  margin-left: 30px;
+}
+
+header.main div.bajada-foto {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+header.main div.bajada-foto p {
+  margin: 0;
+  font-size: 25px;
+}
